@@ -38,10 +38,22 @@ li{
     margin-left: 10px;
 }
 
+#list{
+    padding: 0;
+    margin: 0;
+    height: 380px;
+    overflow-y: auto;
+}
+
 .dlt{
     background-color: #DC9B9B;
     border-radius: 5px;
     margin-left: auto;
+}
+
+.doneTask{
+    text-decoration: line-through;
+    opacity: 50%;
 }
 
 .dlt:hover{
